@@ -68,3 +68,11 @@
   *:focus{
 	border: dotted 2px;
   }
+
+  textarea,input{
+	  background-color: black;
+	  color: white;
+  }
+  textarea::placeholder,input::placeholder{
+	color: lightsteelblue;
+}
